@@ -10,19 +10,13 @@ body{
 .Head{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-color:white;
-    width:100%;
+    padding-left:4rem;
     height:54px;
-    align-items: center;   
-    position: fixed;
+    align-items: center;  
     border-bottom: 1px solid #cecece;
     
-}
-
-.HeadTitle{
-    width:10rem;
-    background-color: gray;
 }
 
 .HeadLeft{
@@ -30,13 +24,12 @@ body{
 }
 
 .HeadCenter input{
-    width:15rem;
+    width:14rem;
     height:1.8rem;
     background: #fafafa;
     border:solid 1px #dbdbdb;
     border-radius: 3px;
     font-size:14px;
-    left:0;
     padding:7px;
     text-align: center;
 }
@@ -48,21 +41,120 @@ body{
 .HeadRight{
     display: flex;
     flex-direction: row;
+    width:360px;
 }
 
-.Main{
+.MainCenter{
     align-items: center;
-    padding:5rem;
-    
+    padding: 1.5rem 17rem;
+}
+
+.MainSub{
+    display: flex;
+    flex-direction: row;
 }
 
 .MainInfo{
     border:1px solid #dbdbdb;
     background-color:white;
-    width:50rem;
+    width:38.3rem;
+    height:7rem;
+    border-radius: 0.3rem;
+}
 
+.MainInfo ul{
+    display: flex;
+    flex-direction: row;
+    padding:0 1.5rem;
+    font-size:0.8rem;
 }
 
 .MainInfo li{
     list-style: none;
+}
+
+.MainInfo img{
+    width:65px;
+    height:65px;
+    border-radius: 4rem;
+    border-color:pink;
+}
+
+.InfoItem{
+    padding-right:1rem;
+    text-align: center;
+}
+
+.MainRight{
+    align-items: center;
+    padding-left:2rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.MyProFile img{
+    width:60px;
+    height:58px;
+    border-radius: 6rem;
+}
+
+.MyProFile{
+    display: flex;
+    flex-direction: row;
+}
+
+.MyProFileId{
+    align-items: center;
+    padding:0.5rem 0 0 1rem;
+}
+
+.Id{
+    font-size:0.9rem;
+}
+
+.Name{
+    font-size:0.9rem;
+    color:gray;
+}
+
+.MainInsta{
+    width:38.3rem;
+    height:50rem;
+    background-color: white;
+    border: 1px solid #dbdbdb;
+    margin-top:1.3rem;
+    border-radius: 0.3rem;
+}
+
+.InstaInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.InstaInfoLeft{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding:1rem;
+}
+
+.InstaImg Img{
+    width:40px;
+    height:40px;
+    border-radius: 2rem;
+}
+
+.InstaId{
+    padding-left:1rem;
+}
+
+.InstaInfoRight{
+    padding-right:1rem;
+}
+
+.InstaImage img{
+    width:38.3rem;
+    height:33rem;
 }
