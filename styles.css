@@ -158,3 +158,62 @@ body{
     width:38.3rem;
     height:33rem;
 }
+
+.LikeImage img{
+    width:20px;
+    height:20px;
+    border-radius: 1rem;
+}
+
+.InstaText{
+    padding:1rem;
+    align-items: center;
+}
+
+.InstaLike{
+    display: flex;
+    flex-direction: row;
+}
+
+.LikeText{
+    font-size:0.9rem;
+    padding-left:0.3rem;
+}
+
+.Text{
+    padding-top:1rem;
+    font-size:0.9rem;
+}
+
+.ComMent{
+    border-top:1px solid #bdbdbd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 16px;
+    padding-top:1.4rem;
+}
+
+.ComMentLeft input{
+   border:none;
+   color:#bdbdbd;
+   font-size:0.9rem;
+}
+
+.ComMentLeft input:hover{
+    outline:none;
+    color:black;
+}
+
+.ComMentRight{
+    color:skyblue;
+}
+
+#ID{
+    font-weight: bold;
+}
+
+#Tag{
+    color:#00376b;
+}
