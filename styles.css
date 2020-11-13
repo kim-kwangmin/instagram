@@ -12,10 +12,13 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     background-color:white;
+    position: fixed;
+    width:100%;
     padding-left:4rem;
     height:54px;
     align-items: center;  
     border-bottom: 1px solid #cecece;
+
     
 }
 
@@ -45,13 +48,11 @@ body{
 }
 
 .MainCenter{
-    align-items: center;
     padding: 1.5rem 17rem;
-}
-
-.MainSub{
     display: flex;
     flex-direction: row;
+    padding-top:5rem;
+    
 }
 
 .MainInfo{
@@ -60,6 +61,8 @@ body{
     width:38.3rem;
     height:7rem;
     border-radius: 0.3rem;
+    min-width:38.3rem;
+    
 }
 
 .MainInfo ul{
@@ -67,6 +70,7 @@ body{
     flex-direction: row;
     padding:0 1.5rem;
     font-size:0.8rem;
+    
 }
 
 .MainInfo li{
@@ -87,9 +91,60 @@ body{
 
 .MainRight{
     align-items: center;
-    padding-left:2rem;
+    padding-left:40rem;
+    position: fixed;
+    width:18rem;
+    min-width:18rem;
+}
+
+.Change{
+    color:rgb(104, 201, 240);
+    font-size:0.8rem;
+    padding-left:7.9rem;
+    font-weight: bold;
+
+}
+
+.Recommend{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    padding-top:1rem;
+}
+
+.RecomLeft{
+    font-size:0.9rem;
+    color:gray;
+    font-weight:bold;
+}
+
+.RecomRight{
+    font-size:0.8rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.RightInfo{
+    padding-top:0.5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.RightInfoItem{
+    padding:0.5rem;
+}
+
+.Follower{
+    font-size:0.8rem;
+    color:gray;
+    width:12rem;
+}
+
+.Follow{
+    font-size:0.8rem;
+    color:rgb(110, 199, 235);
+    
 }
 
 .MyProFile img{
@@ -101,6 +156,8 @@ body{
 .MyProFile{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    padding-top:1rem;
 }
 
 .MyProFileId{
