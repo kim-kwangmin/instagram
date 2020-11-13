@@ -14,12 +14,22 @@ body{
     background-color:white;
     position: fixed;
     width:100%;
-    padding-left:4rem;
     height:54px;
     align-items: center;  
     border-bottom: 1px solid #cecece;
+}
 
-    
+.HeadTitle{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    max-width:945px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeadItem{
+    padding-right:1.3rem;
 }
 
 .HeadLeft{
@@ -44,7 +54,6 @@ body{
 .HeadRight{
     display: flex;
     flex-direction: row;
-    width:360px;
 }
 
 .MainCenter{
@@ -52,7 +61,6 @@ body{
     display: flex;
     flex-direction: row;
     padding-top:5rem;
-    
 }
 
 .MainInfo{
@@ -62,6 +70,7 @@ body{
     height:7rem;
     border-radius: 0.3rem;
     min-width:38.3rem;
+   
     
 }
 
